@@ -9,7 +9,23 @@ Things you may want to cover:
 
 * Ruby version
 
-* System dependencies
+* Gems
+
+ rails
+ sqlite3
+ web-console
+ sass-rails
+ uglifier
+ coffee-rails
+ jquery-rails
+ turbolinks
+ jbuilder
+ sdoc
+ spring
+ devise
+ paperclip
+ bootstrap-sass
+ searchkick
 
 * Configuration
 
