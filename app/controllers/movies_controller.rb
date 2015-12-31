@@ -53,6 +53,7 @@ class MoviesController < ApplicationController
   private
     def set_movie
       @movie = Movie.find(params[:id])
+      @reviews = @movie.reviews
     end
 
     def movie_params
