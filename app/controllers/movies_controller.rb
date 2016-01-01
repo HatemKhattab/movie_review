@@ -7,6 +7,12 @@ class MoviesController < ApplicationController
   end
 
   def show
+    @reviews = @movie.reviews
+    if @reviews.blank?
+      @avg_review = 0
+    else
+      @avg_review = @reviews.average(:rating).round(2)
+    end
   end
 
   def new
@@ -53,7 +59,6 @@ class MoviesController < ApplicationController
   private
     def set_movie
       @movie = Movie.find(params[:id])
-      @reviews = @movie.reviews
     end
 
     def movie_params
