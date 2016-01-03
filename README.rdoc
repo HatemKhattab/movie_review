@@ -1,6 +1,6 @@
 == README
-Here i implement course of Mackenzie Child 
-https://mackenziechild.me/12-in-12/5/
+ you can visit this site on :
+ https://hkhattab-movies-reviews.herokuapp.com/
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -40,5 +40,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+Here i implement course of Mackenzie Child
+https://mackenziechild.me/12-in-12/5/
 
 
