@@ -1,5 +1,5 @@
 == README
- you can visit this site on :
+ you can visit the non final version of  this site on :
  https://hkhattab-movies-reviews.herokuapp.com/
 
 This README would normally document whatever steps are necessary to get the
