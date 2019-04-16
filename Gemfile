@@ -14,7 +14,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring', '1.1.3' , group: :development
-gem 'devise', '~> 3.4.0'
+gem 'devise', '~> 4.6.0'
 gem "paperclip", ">= 5.2.0"
 gem "bootstrap-sass", " 3.1.1"
 gem 'searchkick', '~> 0.8.3'
