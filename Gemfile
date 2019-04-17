@@ -4,7 +4,6 @@ ruby '2.3.3'
 gem 'puma'
 gem 'rails', '4.2.11'
 gem 'rails_12factor'
-gem 'pg'
 gem "web-console"
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -32,3 +31,7 @@ gem "activemodel", '4.2.11'
 gem "railties", "4.2.11"
 gem 'activesupport', '4.2.11'
 gem "bundler", "< 2.0", ">= 1.3.0"
+
+group  :production do
+  gem 'pg', '1.1.0'
+end
